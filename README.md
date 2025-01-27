@@ -13,7 +13,9 @@ This project demonstrates how to train a YOLO11n model for person detection usin
    ```
 
 2. **Download Dataset**
-   - Use the Roboflow API to fetch the dataset:
+   - You can download the dataset from Roboflow directly using this link:  
+   [Download Person Detection Dataset](https://universe.roboflow.com/titulacin/person-detection-9a6mk/dataset/16)  
+   - Alternatively, you can use the Roboflow API to fetch the dataset programmatically.
 
 3. **Dataset Split**
    - Train Set: 80% (4407 Images)  
