@@ -22,7 +22,7 @@ This project demonstrates how to train a YOLO11n model for person detection usin
    - Valid Set: 20% (1071 Images)  
 
 4. **Train the Model**
-   Load YOLO11n and start training:
+   - Load YOLO11n and start training:
    ```python
    from ultralytics import YOLO
    model = YOLO('yolo11n.pt')
@@ -30,7 +30,7 @@ This project demonstrates how to train a YOLO11n model for person detection usin
    ```
 
 5. **Evaluate the Model**
-   Validate the trained model:
+   - Validate the trained model:
    ```python
    metrics = model.val(data='data.yaml')
    ```
