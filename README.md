@@ -1,7 +1,7 @@
-# **Train YOLO11n for Person Detection Using Roboflow Dataset**
+# **Train YOLO11 for Person Detection Using Roboflow Dataset**
 
 ## **Overview**
-This project demonstrates how to train a YOLO11n model for person detection using a dataset from Roboflow. The guide includes installing dependencies, downloading the dataset, updating configurations, training the model, and evaluating its performance.
+This project demonstrates how to train a YOLO11 model for person detection using a dataset from Roboflow. The guide includes installing dependencies, downloading the dataset, updating configurations, training the model, and evaluating its performance.
 
 ---
 
@@ -22,10 +22,10 @@ This project demonstrates how to train a YOLO11n model for person detection usin
    - Valid Set: 20% (1071 Images)  
 
 4. **Train the Model**
-   - Load YOLO11n and start training:
+   - Load YOLO11 and start training:
    ```python
    from ultralytics import YOLO
-   model = YOLO('yolo11n.pt')
+   model = YOLO('yolo11s.pt')
    model.train(data='data.yaml', epochs=100, imgsz=640, patience=10)
    ```
 
