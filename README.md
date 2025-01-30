@@ -46,10 +46,10 @@ You can download the trained model weights from the following link:
 ## **Evaluation Results**
 | Class | Images | Instances | Box(P) | R | mAP50 | mAP50-95 |
 |-------|--------|-----------|--------|---|-------|----------|
-| all   | 1071   | 2293      | 0.845  | 0.717 | 0.81  | 0.53     |
+| all   | 1071   | 2293      | 0.845  | 0.717 | 0.825 | 0.547    |
 
 ---
 
 ## **Key Metrics**
-- mAP50: 81%
-- mAP50-95: 53%
+- mAP50: 82.5%
+- mAP50-95: 54.7%
